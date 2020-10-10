@@ -2,35 +2,34 @@ const people = [
     [
         principal = "Joseph Morgan",
         supervisor = "Danielle Gillies",
-        teacher = "Emilia Clarke",
+        teacher = ["Emilia Clarke","Brandon Stark","Tyrion Lannister"],
         students = ["Elena","Bonnie","Caroline"]
     ],
     [
-        principal = "Joseph Morgan",
+        principal = "Freya Mikealson",
         supervisor = "Phoebe tonkin",
-        teacher = "Kit Harington",
+        teacher = ["Kit Harington","Arya Stark","Hodor Petrova"],
         students = ["Stefan","Damon","Katherine"]
     ],
     [
-        principal = "Joseph Morgan",
+        principal = "Alaric Saltzman",
         supervisor = "Mattew Davis",
-        teacher = "Sophie Turner",
+        teacher = ["Sophie Turner","Marcel Gerard","Joshua"],
         students = ["Hope","Lizzie","Josie"]
     ],
     [
-        principal = "Joseph Morgan",
+        principal = "Kol Caleb",
         supervisor = "Natanielle Buzz",
-        teacher = "Maize Williams",
+        teacher = ["Maize Williams","Cersei Lannister","Michael Wheeler"],
         students = ["Hayley","Rebecca","Davina"]
     ],
     [
-        principal = "Joseph Morgan",
+        principal = "Henry Marshall",
         supervisor = "Paul Weasely",
-        teacher = "Peter Dinklage",
+        teacher = ["Peter Dinklage","Steve Harington","Nancy Wheeler"],
         students = ["April","Matt","Tyler"]
     ]
 ];
-
 
 function checkVal(array, value) {
     // `Array#some` loops through the array until the iterator
